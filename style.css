@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+
+
+/*--------navbar seciton-------------------------------------------*/
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right, #ff006e, #a18184);
+    padding: 7px !important;
+}
+.navbar-brand{
+    padding-left: 20px;
+    color: white !important;
+}
+.navbar-nav{
+    padding: 0 10px;
+    float: right;
+    text-align: left;
+}
+.nav-link{
+    color: white !important;
+    font-weight: 500;
+}
+.fa-bars{
+    color: white;
+    font-size: 30px !important;
+}
+.navbar-toggler{
+    outline: none;
+}
+
+/*--------banner section----------------------------------------*/
+#banner{
+    background-image: linear-gradient(to right, #ff006e, #a18184);
+    color: white;
+    padding-top: 5%;
+    padding-left: 10%;
+    height: 660px;
+}
+#banner h1{
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 100px;
+}
+.fa-play-circle{
+    width: 45px;
+    margin: 10px;
+}
+#banner a{
+    color: white;
+    text-decoration: none;
+}
+.bottom-img{
+    width: 100%;
+    padding-top:1%;
+}
+
+/*-----shape---------------------------------------------------------------------------------------------*/
+.custom-shape-divider-bottom-1615361229 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1615361229 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 107px;
+}
+
+.custom-shape-divider-bottom-1615361229 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/*-------section services----------------------------------------------------------------------------------------*/
+#services{
+    padding: 90px 0;
+}
+#services .btn{
+    background-image: linear-gradient(to right, #ff006e, #a18184);
+    color: white;
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+}
+.services-img{
+    width: 100px;
+    padding-top: 20px;
+}
+.services{
+    padding: 50px;
+}
+.services h4{
+    padding :5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+/*-------client--------------------------------------------------------------------------------------------*/
+#skills{
+padding: 10% ;
+}
+/*---team section---------------------------------------------------------------------------------------*/
+#team {
+    margin-top: 0;
+}
+#team h1{
+    margin-bottom: 80px;
+    margin: 20px 0;
+}
+.team h2{
+    margin-bottom: 100px;
+    color: rgb(139, 139, 139);
+    font-size: 20px;
+}
+#team img{
+    height: 350px;
+    width: 250px;
+    filter: grayscale(100%);
+
+}
+#team img:hover{
+    filter: grayscale(0);
+}
+#team p{
+    margin-top: 20px;
+}
+#team span{
+    color:#ff006e;
+}
+.pos{
+    margin-left: 10%;
+}
+#team i{
+    color: black;
+    width: 20px;
+    height: 50px;
+    margin-left: 18%;
+}
+#team i:hover{
+    color: #ff006e;
+}
+
+/*-----logo----------------------------------------------------------------------------------------------*/
+
+.marque img{
+margin-top: 100px;
+   height: 100px;
+   width: 150px;
+}
+.ref{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.ref h1{
+    margin-bottom: 100px;
+    margin: 20px 0;
+}
+
+/*----testimonials section ----------------------------------------------------------------------------------------*/
+#testimonials{
+    margin: 150px 0;
+}
+#testimonials h1{
+    margin-bottom: 80px;
+}
+.testimonials{
+    border-left: 4px solid #ff006e;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.testimonials img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 1px solid #ff006e;
+    margin: 0 10px;
+}
+.user-details{
+    display: inline-block;
+    font-size: 12px;
+}
+
+/*----------footer section--------------------------------------------------------------------------------------*/
+
+/*------shape footer-------------------------------------------------------------------*/
+.custom-shape-divider-bottom-1615362933 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1615362933 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 112px;
+}
+
+.custom-shape-divider-bottom-1615362933 .shape-fill {
+    fill:  #ff006e;
+}
+
+/*---footer----------------------------------------------------------------------------*/
+footer{
+    padding-top: 3%;
+    text-align: justify;
+    font-size: 15px;
+    background-color: #ff006e;
+    width: 100%;
+}
+.twitter{
+    margin-left: 0;
+}
+footer a {  
+    color: white;
+    text-decoration: none;
+}
+footer i{
+    color: white;
+    margin-left: 15%;
+}
+footer ul{
+    list-style: none;
+    padding-left: 0;
+}
+footer h1{
+    font-size: 11px;
+    color: rgb(243, 243, 243);
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

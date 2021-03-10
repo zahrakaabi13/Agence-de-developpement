@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    overflow-x: hidden; 
+}
+
+
+/*--------navbar seciton-------------------------------------------*/
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right, #ff006e, #a18184);
+    padding: 7px !important;
+}
+.navbar-brand{
+    padding-left: 20px;
+    color: white !important;
+}
+.navbar-nav{
+    padding: 0 10px;
+    float: right;
+    text-align: left;
+}
+.nav-link{
+    color: white !important;
+    font-weight: 500;
+}
+.fa-bars{
+    color: white;
+    font-size: 30px !important;
+}
+.navbar-toggler{
+    outline: none;
+}
+/*banner-------------------------------------------*/
+.banner{
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(./image/background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:center;
+    width: 100%;
+    height: 50vh;
+}
+
+
+/*-----form-------------------------------------------*/
+.formsection{
+    background-color: rgb(243, 243, 243);
+}
+.formsection #theone h2{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.lign{
+    margin-left: 10%;
+    margin-top: 6%;
+    height: 5px;
+    width: 10%;
+    background-color: #ff006e;
+}
+.formsection  form{
+    margin: 10%;
+}
+.formsection form input{
+  height: 50px;
+}
+.formsection form textarea{
+    height: 200px;
+}
+
+.formsection form .btn{
+    background-color: #ff006e;
+}
+
+.formsection #thetwo h2,p{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.adress{
+    display: flex;
+    margin-left: 12%;
+  padding-top: 3%;
+}
+.adress p{
+    color: rgb(128, 128, 128);
+}
+.text p{
+    color: rgb(128, 128, 128);
+}
+.adress span{
+    color: black;
+    font-size: 30px;
+}
+.adress i{
+    margin-top: 2%;
+    font-size: 25px;
+}
+.adress i:hover {
+    color: #ff006e;
+  }
+/*---footer----------------------------------------------------------------------------*/
+footer{
+    padding-top: 3%;
+    text-align: justify;
+    font-size: 15px;
+    background-color: #ff006e;
+    width: 100%;
+}
+.twitter{
+    margin-left: 0;
+}
+footer a {  
+    color: white;
+    text-decoration: none;
+}
+footer i{
+    color: white;
+    margin-left: 15%;
+}
+footer ul{
+    list-style: none;
+    padding-left: 0;
+}
+footer h1{
+    font-size: 11px;
+    color: rgb(243, 243, 243);
+    margin-bottom: 0;
+}
+footer p{
+    margin-left: 0;
+    margin-top: 0;
+}
